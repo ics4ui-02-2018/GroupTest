@@ -15,7 +15,13 @@ public class GroupTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        int zebra = 14;
+        
+        zebra = ((zebra*5)-9)/2 + (12^2)/2 - 98;
+        
+        System.out.println("There are " + zebra + " zebras in the legend of Zebra");
+        
     }
     
 }
