@@ -5,6 +5,8 @@
  */
 package grouptest;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lamon
@@ -16,6 +18,10 @@ public class GroupTest {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        System.out.println("What's your name?");
+        String name = input.nextLine();
+        System.out.println("Hello" + name);
     }
     
 }
